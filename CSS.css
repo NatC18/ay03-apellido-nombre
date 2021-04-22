@@ -1,1 +1,75 @@
+body{
+    font-family: "Lucida Console", monospace;
+    background: #C7E7B3;
+    color: #343931;
+}
 
+header{
+    background: rgb(153, 172, 100);
+    margin: 0px;
+    padding: 0px 0px 60px 0px;
+}
+
+#Animales{ /*esto es un div*/
+    background: rgb(132, 167, 92);
+    padding: 10px 40px 70px 5px;
+    margin: 0px 100px 0px 100px;
+}
+
+#Animales ul li {
+
+    list-style-type: none;
+    float: left;
+    font-size:20px;
+    padding: 10px 20px 10px 20px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    border: 10px solid rgb(52, 87, 52);
+    background-color: rgb(52, 87, 52);
+    border-radius: 5px;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    padding: 5px 0px 0px 20px;
+}
+
+
+#informacion{ /*esto es un div*/
+    text-align: center;
+}
+
+#informacion div{ /*esto es un div*/
+    margin: 0px 321px;
+    opacity: 0.9;
+    height: 225px;
+    border: 10px solid rgb(51, 54, 51);
+}
+
+.link{
+    font-family: "Lucida Console", monospace;
+    text-decoration: none;
+}
+
+.link:link{
+    color: royalblue;
+}
+
+.link:visited{
+    color: white;
+}
+
+.link:hover{
+    color: rgb(153, 110, 54);
+    background-color: rgb(188, 221, 184);
+}
+
+.link:active{
+    color: yellow;
+}
