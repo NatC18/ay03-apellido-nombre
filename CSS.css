@@ -16,10 +16,10 @@ header{
     margin: 0px 100px 0px 100px;
 }
 
-#Animales ul li {
+#Animales ul li { 
 
     list-style-type: none;
-    float: left;
+    float: right;
     font-size:20px;
     padding: 10px 20px 10px 20px;
 }
@@ -45,12 +45,54 @@ h3{
     text-align: center;
 }
 
-#informacion div{ /*esto es un div*/
-    margin: 0px 321px;
-    opacity: 0.9;
-    height: 225px;
-    border: 10px solid rgb(51, 54, 51);
+img { /*esto es un div*/
+    border-radius: 20px;
+    padding: 0px;
+    border:10px solid rgb(52, 87, 52);
+    opacity: 1;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+
+p {
+    display: block;
+}
+
+button{
+    font-family: "Lucida Console", monospace;
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgb(132, 167, 92);
+    color: white;
+}
+
+button:hover{
+    font-family: "Lucida Console", monospace;
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgb(132, 167, 92);
+    color: white;
+    cursor: pointer;
+}
+
+#boton1{
+    margin-bottom: 20px;
+    
+}
+
+
+#boton2{
+    margin-top: 20px;
+}
+
+#boton3{
+    margin-bottom: 20px;
+    
+}
+
 
 .link{
     font-family: "Lucida Console", monospace;
@@ -68,6 +110,8 @@ h3{
 .link:hover{
     color: rgb(153, 110, 54);
     background-color: rgb(188, 221, 184);
+    border-radius:2px;
+    padding: 30px 0px;
 }
 
 .link:active{
