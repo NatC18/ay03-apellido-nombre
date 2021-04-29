@@ -4,6 +4,7 @@ $(document).ready(function(){
     var boton3 = $("#boton3");
     var imagenes = $("img");
     var lista = $("#Animales");
+    var boton = 0
 
     
 
